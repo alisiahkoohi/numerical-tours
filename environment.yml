@@ -1,0 +1,11 @@
+name: numerical-tours
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.6.9
+  - environment_kernels
+  - numpy==1.17.4
+  - scikit-image==0.15.0
+  - matplotlib==3.0.3
+  - jupyterlab==1.1.4
