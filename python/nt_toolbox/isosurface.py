@@ -9,7 +9,7 @@ def isosurface(M,v,step,title=""):
     """
     sel = np.arange(0,np.shape(M)[0],step)
     
-    verts, faces = measure.marching_cubes(M[np.ix_(sel,sel,sel)], v, spacing=(1.0, 1.0, 1.0))
+    verts, faces = measure.marching_cubes_classic(M[np.ix_(sel,sel,sel)], v, spacing=(1.0, 1.0, 1.0))
     
     fig = plt.figure(figsize = (10,7))
     ax = fig.add_subplot(111, projection='3d')
