@@ -9,7 +9,7 @@ Copyright (c) 2014 Gabriel Peyre
 
 ## Prerequisites
 
-This installation has been tested on Amazon Linux operating system on Amazon Web Services (AWS). Follow the steps below to install the necessary libraries:
+The Python Jupyter notebooks have been tested with the installation below on Amazon Linux operating system on Amazon Web Services (AWS). Follow the steps below to install the necessary libraries:
 
 ```bash
 git clone https://github.com/alisiahkoohi/numerical-tours.git
