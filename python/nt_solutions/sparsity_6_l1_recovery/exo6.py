@@ -1,7 +1,7 @@
 g = lambda C,I: np.sum(C[:,I], 1)
 
 plt.figure(figsize=(8,5))
-dlist = np.arange(1,N/20)
+dlist = np.arange(1,N/20).astype(int)
 criter = np.zeros([len(dlist),3])
 
 for i in range(len(dlist)):

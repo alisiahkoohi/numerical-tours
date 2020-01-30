@@ -9,7 +9,7 @@ for i in range(len(eta_list)):
     c = []
     
     for k in range(ntrials):
-        c = c + [mu(PhiRand(P, N))]
+        c = c + [mu(PhiRand(int(P), N))]
         
     mu_mean = mu_mean + [np.mean(c)]
     mu_std = mu_std + [np.std(c)]

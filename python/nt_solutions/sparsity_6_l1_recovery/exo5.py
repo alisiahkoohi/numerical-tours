@@ -1,7 +1,7 @@
 N = 600
 P = N/2
-Phi = PhiRand(P, N)
-klist = np.round(np.linspace(1, P/15., 10))
+Phi = PhiRand(int(P), N)
+klist = np.round(np.linspace(1, P/15., 10)).astype(int)
 ntrials = 2000
 rip_val = np.zeros([len(klist),2])
 
